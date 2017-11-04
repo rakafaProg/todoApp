@@ -1,7 +1,7 @@
-let testMode = true;
+let testMode = false;
 
 function todoModule(containerElement) {
-    const containerHTML = document.getElementById(containerElement);
+    const containerHTML = createHtmlElement('div','container', '', document.getElementById(containerElement));
 
     // priorities class names:
     const priority1ClassName = 'card-danger';
