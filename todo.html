@@ -5,13 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="styles/style.less"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+
 </head>
 
     <body>
-      <main id='todoItemsContainer'>
+      <header>
+        <div class="container">
+          <div class="jumbotron">
+            <h1>Todo List</h1>
+            <p>All the little and big things, that I keep forgeting... Now waiting for me todo.</p>
+          </div>
+        </div>
+      </header>
+      <main id='todoItemsContainer' class="container">
+        <div class="card card-inverse card-primary mb-3 text-center">
 
+            </div>
+            <div class="card card-inverse card-success mb-3 text-center">
+            <div class="card-block">
+              <blockquote class="card-blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+            </div>
+            <div class="card card-inverse card-info mb-3 text-center">
+            <div class="card-block">
+              <blockquote class="card-blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+            </div>
+            <div class="card card-inverse card-warning mb-3 text-center">
+            <div class="card-block">
+              <blockquote class="card-blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+            </div>
+            <div class="card card-inverse card-danger text-center">
+            <div class="card-block">
+              <blockquote class="card-blockquote">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+              </blockquote>
+            </div>
+            </div>
       </main>
 
       <form>
@@ -32,6 +78,23 @@
           <button type="submit" class="btn btn-primary">Add todo item</button>
 
       </form>
+
+      <footer>
+        <div class="container">
+          <div class="jumbotron">
+            <h1>So let's do it!</h1>
+            <h2>
+              With a smile
+              <i class="fa fa-smile-o" aria-hidden="true"></i>
+              <i class="fa fa-smile-o" aria-hidden="true"></i>
+              <i class="fa fa-smile-o" aria-hidden="true"></i>
+            </h2>
+          </div>
+        </div>
+      </footer>
+
+      <!-- scripts -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="scripts/todo.js"></script>
     </body>
 </html>
