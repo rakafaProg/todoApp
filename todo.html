@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-    <script src=""></script>
-</body>
+    <body>
+      <main id='todoItemsContainer'>
+
+      </main>
+
+      <form>
+          <div class="form-group">
+              <label for="detailsTextarea">Details:</label>
+              <textarea class="form-control" id="detailsTextarea" rows="3"></textarea>
+          </div>
+
+          <div class="form-group">
+              <label for="prioritySelect">Priority:</label>
+              <select class="form-control" id="prioritySelect">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+              </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Add todo item</button>
+
+      </form>
+      <script src="scripts/todo.js"></script>
+    </body>
 </html>
